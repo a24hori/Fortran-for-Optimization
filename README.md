@@ -9,3 +9,30 @@ For self-study and motivate myself to keep studying. This repository will provid
 - My goal of this project is to implement an algorithm for solving a variational inequality:<br>
 Find x\in X such that F(x)^T (y-x)\geq 0, \forall y\in X,<br>
 where X is a nonempty closed convex set on R^n, and F:R^n -> R^n is a vector-valued function. The model can be seen many problems, for example, in game theory, the Nash equilibrium problem may be reformulated as the variational inequality problem.
+
+### Examples
+###### steepest_descent.f90
+- The steepest descent method is a numerical algorithm for solving an unconstrained optimization problem:<br>
+	Minimize: f(x),
+where f:R^n -> R is continuously differentiable. For the details, please refer to <a href="http://www.math.usm.edu/lambers/mat419/lecture10.pdf">this resume</a>.<br>
+<h4>Sample execution</h4>
+'''
+$ ./steepest_descent
+ Number of variables:
+2
+ Maximum number of iterations:
+100
+ convergence criteria:
+0.00001
+ stepsize:
+0.1
+ initial point:
+     X(1)=2
+     X(2)=2
+Optimal value:    0.0000
+Number of iterations: 38
+ Optimal solution:
+      3.0000
+      3.0000
+$
+'''
