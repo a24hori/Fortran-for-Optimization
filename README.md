@@ -3,7 +3,7 @@ For self-study and motivate myself to keep studying. This repository will provid
 
 ## Why are you learning Fortran?
 <p>Because I am a twister, just like those people who love old-fashioned thoughts. Nowadays, in compiler languages, many Fortran programs have been replaced by C/C++. However, in academic fields or basic numerical analyzing software, Fortran is still in use because of over years of reliability and fast execution, for example, Fortran was used for controlling satellite by NASA. Also in the field of mathematical optimization, the basic computation is written in Fortran.</p>
-<p> *Note*: Since I am not a specialist in software development, the programs uploaded on this repository looks very ugly.</p>
+*Note*: Since I am not a specialist in software development, the programs uploaded on this repository looks very ugly.<br>
 
 ## GOAL
 <p>My goal of this project is to implement an algorithm for solving a variational inequality:<br>
@@ -16,6 +16,8 @@ where X is a nonempty closed convex set on R^n, and F:R^n -> R^n is a vector-val
 	Minimize: f(x),
 where f:R^n -> R is continuously differentiable. For the details, please refer to <a href="http://www.math.usm.edu/lambers/mat419/lecture10.pdf">this resume</a>.<br>
 ##### Sample execution
+Minimize f(x,y):=x^2+xy+y^2-9x-9y+27<br>
+Note that this function is strongly convex. Thus, if the gradient of the function f at the point (x^\*,y^\*) is a zero vector, the point is the unique optimal solution.
 ```
 $ ./steepest_descent
  Number of variables:
