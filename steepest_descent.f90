@@ -11,10 +11,12 @@ PROGRAM steepest_descent
 !*  n: number of variables (n.LE.NMAX).               *
 !*  kmax: maximum number of iterations                *
 !*  eps: convergence criteria                         *
-!*  ss: stepsize (this could be obtained by line      *
-!*     search algorithm but since this program is     *
-!*     just a test for my first Fortran, I did not    *
-!*     implement the line search algorithm).          *
+!*  ss: stepsize (this could be obtained by the line  *
+!*     search algorithm and guaranteed the global     *
+!*     convergence by applying Armijo criterion or    *
+!*     Wolfe criterion, however, since this program   *
+!*     is just a test for my first Fortran, I did     *
+!*     not implement the line search algorithm).      *
 !*  x0(i): initial point.                             *
 !*               Prepared by A. Hori, September 2017. *
 !******************************************************
