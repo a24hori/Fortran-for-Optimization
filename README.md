@@ -7,7 +7,7 @@ For self-study and motivate myself to keep studying. This repository will provid
 
 ## GOAL
 <p>My goal of this project is to implement an algorithm for solving a variational inequality:<br>
-Find x\in X such that F(x)^T (y-x)\geq 0, \forall y\in X,<br>
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cmbox%7BFind%3A%7D%5C%20x%5E%2A%5Cin%20X%5C%20%5Cmbox%7Bsuch%20that%7D%5C%20F%28x%5E%2A%29%5ET%20%28x-x%5E%2A%29%5Cgeq%200%2C%5C%20%5Cforall%20x%5Cin%20X&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=0" align="center" border="0" alt="\mbox{Find:}\ x^*\in X\ \mbox{such that}\ F(x^*)^T (x-x^*)\geq 0,\ \forall x\in X" width="381" height="21" /><br>
 where X is a nonempty closed convex set on R^n, and F:R^n -> R^n is a vector-valued function. The model can be seen many problems, for example, in game theory, the Nash equilibrium problem may be reformulated as the variational inequality problem.</p>
 
 ## Examples
